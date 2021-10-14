@@ -1,0 +1,16 @@
+<form [formGroup]="info" (ngSubmit)="onSubmit()">
+    <label>
+  
+      First Name:
+  
+      <input type="text" formControlName="fName">
+  
+    </label>
+    <label>
+      Last Name:
+  
+      <input type="text" formControlName="lName">
+  
+    </label>
+    <input type="submit" class="btn btn-warning" value="submit">
+</form>
